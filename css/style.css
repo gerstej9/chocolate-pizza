@@ -1,0 +1,36 @@
+.header-left{
+    float: left;
+   
+}
+header h2{
+    font-size: 20px;
+}
+header h3{
+    font-size: 10px;
+    color: gray;
+}
+header img{
+    float:right;
+}
+header{
+    margin: 40px 200px;
+}
+.main-right{
+    float: right;
+}
+main h3{
+    font-size: 10px;
+    color: gray;
+}
+
+
+#container{
+    position: relative;
+    z-index: 1;
+
+}
+.list{
+    position: absolute;
+    z-index: 2;
+}
+
