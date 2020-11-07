@@ -3,77 +3,103 @@
     <head>
         <title>chocolate pizza</title>
         <link rel="stylesheet" href="css/reset.css" type="text/css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
     <body>
         <header>
-           <img class="header-left" src="img/small-logo.png" alt="small-logo">
-           <section>
-           <h2 class="header-left">Delicious</h2> 
-           <h3 class="header-left">THE BEST FOOD BLOG ON THE WEB</h3>
-           </section>
-           <img src="img/fb-icon.png" alt="facebook">
-           <img src="img/twit-icon.png" alt="tweeter" >
-           <img src="img/gp-icon.png" alt="google" >
-           <img src="img/insta-icon.png" alt="istagram" >
-           <img src="img/flic-icon.png" alt="flicker">
-           <img src="img/pint-icon.png" alt="pintrest">
-           <img src="img/rss-icon.png" alt="rsss">
-           <img src="img/mail-icon.png" alt="mail">
+            <section>
+                <img class="header-left" src="img/small-logo.png" alt="small-logo">
+                <h2 class="header-left">Delicious</h2> 
+                <h3>THE BEST FOOD BLOG ON THE WEB</h3>
+                </section>
+                <img id ="facebook" src="img/fb-icon.png" alt="facebook">
+                <img src="img/twit-icon.png" alt="tweeter" >
+                <img src="img/gp-icon.png" alt="google" >
+                <img src="img/insta-icon.png" alt="istagram" >
+                <img src="img/flic-icon.png" alt="flicker">
+                <img src="img/pint-icon.png" alt="pintrest">
+                <img src="img/rss-icon.png" alt="rsss">
+                <img src="img/mail-icon.png" alt="mail">
         </header>
         <main>
+
+            <img class = "placeholder" src = "https://via.placeholder.com/940x20" alt = "placeholder">
             <img src="img/hr-img.png" alt="dash">
             <h1 class="main-left" >Chocolate Pizza</h1>
-            <h3 class="main-left" >POSTED ON 15 DEC 2013 / DESSERTS</h3>
-            <h3 class="main-right" >PRINT</h3>
-            <img class="main-right" src="img/print-icon.png" alt="print">
+            <h3 class="main-left" id = "posted" >POSTED ON 15 DEC 2013 / DESSERTS</h3>
             
-            <img src="img/choco-pizza.png" alt="chocopizza">
+            <img class="main-right" src="img/print-icon.png" alt="print">
+            <h3 class="main-right" >PRINT</h3>
+
+            
+            <img class = "choc" src="img/choco-pizza.png" alt="chocopizza">
             <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
-                <br/>Ice Cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.
-                <br/>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi frozen mixture into a pyrex dish or glass Tupperware. Freeze for at least two hours before serving.</p>
-                <section>
-                <img id="container"  src="img/list-bg.png" alt="list">
-                <form>
-                    <fieldset class="list"  >
-                        <input name="milk" type="checkbox">
-                        <label>1 1/2 cups milk</label>
-                        <input name="mace" type="checkbox">
-                        <label>1/2 cup mascarpone</label>
-                        <input name="salt" type="checkbox">
-                        <label>1/2 tsp pink salt </label>
-                        <input name="fig" type="checkbox">
-                        <label>1 lb Black Mission Figs</label>
-                        <input name="sugar" type="checkbox">
-                        <label>1/2 cup brown sugar</label>
-                        <input name="water" type="checkbox">
-                        <label>2-4 tbsp water</label>
-                        <input name="cream" type="checkbox">
-                        <label>1 1/2 cups heavy cream</label>
-                        <input name="g-sugar" type="checkbox">
-                        <label>1/3 granulated sugar</label>
-                        <input name="egg" type="checkbox">
-                        <label>2 egg yolks</label>
-                        <input name="lemon" type="checkbox">
-                        <label>1 lemon, juiced</label>
-                        <input name="butter" type="checkbox">
-                        <label>2 tbsp butter</label>
-                        <input name="pecan" type="checkbox">
-                        <label>1 cup honey roasted pecans, roughly chopped</label>
-                    </fieldset>
-                </form>
-            </section>
+
+            </p>
+            <p><br/>Ice Cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.
+            </p>
+            <p><br/>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi frozen mixture into a pyrex dish or glass Tupperware. Freeze for at least two hours before serving.</p>
+            </p>
+                <section class = "relative">
+                    
+                    <form class="list" >
+                        <fieldset  >
+                            <ul class = "left">
+                            <input id = "first" name="milk" type="checkbox">
+                            <label>1 1/2 cups milk</label>
+                            <br/>
+                            <input name="mace" type="checkbox">
+                            <label>1/2 cup mascarpone</label>
+                            <br/>
+                            <input name="salt" type="checkbox">
+                            <label>1/2 tsp pink salt </label>
+                            <br/>
+                            <input name="fig" type="checkbox">
+                            <label>1 lb Black Mission Figs</label>
+                            <br/>
+                            <input name="sugar" type="checkbox">
+                            <label>1/2 cup brown sugar</label>
+                            <br/>
+                            <input name="water" type="checkbox">
+                            <label>2-4 tbsp water</label>
+                            </ul>
+                            <ul class ="right">
+                            <input name="cream" type="checkbox">
+                            <label>1 1/2 cups heavy cream</label>
+                            <br/>
+                            <input name="g-sugar" type="checkbox">
+                            <label>1/3 granulated sugar</label>
+                            <br/>
+                            <input name="egg" type="checkbox">
+                            <label>2 egg yolks</label>
+                            <br/>
+                            <input name="lemon" type="checkbox">
+                            <label>1 lemon, juiced</label>
+                            <br/>
+                            <input name="butter" type="checkbox">
+                            <label>2 tbsp butter</label>
+                            <br/>
+                            <input name="pecan" type="checkbox">
+                            <label>1 cup honey roasted pecans, roughly chopped</label>
+                            </ul>
+                        </fieldset>
+                    </form>
+                    <img id="container"  src="img/list-bg.png" alt="list">
+                </section>
                 <img src="img/hr-img.png" alt="dash">
 
         </main>
         <footer>
-            <img src="img/van-pic.png" alt="van">
+            <img class ="header-left" src="img/van-pic.png" alt="van">
             <h2>Vanessa Stevenson</h2>
             <h3>Food enthusiast, photography fan. Add a pinch of row foodism and that's pretty much who I am.</h3>
             <button>SHARE RECIPE</button>
-            <hr/>
+            <hr class = "header-left"/>
             <img src="img/small-logo.png" alt="small">
-            <hr/>
+            <hr class = "header-right"/>
             <h4>Delicious &copy; 2013 &bull; All Right Reserved.</h4>
             <h4>Proudly published with Ghost.</h4>
             <script src="js/app.js"></script>

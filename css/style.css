@@ -4,29 +4,50 @@
 }
 header h2{
     font-size: 20px;
+    font-family: 'Pacifico', cursive;
 }
 header h3{
     font-size: 10px;
     color: gray;
+    clear:left;
+    margin:0 20px;
 }
 header img{
-    float:right;
+    /* float:right; */
+}
+
+#facebook{
+    margin-left:67%
 }
 header{
-    margin: 40px 200px;
+    /* margin: 40px 200px; */
 }
 .main-right{
     float: right;
+    /* margin-right:20px; */
+}
+
+main h1{
+    font-size: 40px;
+    font-family:sans-serif;
+    font-weight:bold;
 }
 main h3{
     font-size: 10px;
     color: gray;
 }
 
+body{
+    margin:2% 5%;
+}
+
+.relative{
+    position:relative;
+}
 
 #container{
-    position: relative;
     z-index: 1;
+    position:relative;
 
 }
 .list{
@@ -34,3 +55,69 @@ main h3{
     z-index: 2;
 }
 
+/* main img{
+    margin:20px 0px; */
+}
+
+p {
+    color:grey;
+}
+
+button{
+    float:right;
+    background-color:orange;
+}
+
+footer h2{
+    font-weight: bold;
+    font-size:25px;
+    color:grey;
+}
+
+footer h3{
+    color:grey;
+    margin-top:10px;
+    width:400px;
+}
+
+hr.header-left{
+    margin-top:50px;
+    width:40%;
+}
+
+h4{
+    clear:left;
+    text-align:center;
+}
+
+footer img{
+    clear:left;
+}
+
+.header-right{
+    float:right;
+    width:40%;
+}
+
+input{
+    margin-right:10px;
+    padding:px;
+    margin-top:15px;
+    /* margin-left:800px; */
+}
+
+ul.left{
+    float:left;
+    margin: 60px;
+}
+
+ul.right{
+    float:right;
+    margin: 60px;
+}
+
+label{
+    color:rgba(66, 24, 24, 0.452);
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:bolder;
+}
