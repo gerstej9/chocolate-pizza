@@ -1,3 +1,8 @@
+# Contributors:
+Seid Mohamed 
+James Gerstenberger
+
+
 # Assignment Overview: Lab 10
 
 ## Chocolate Pizza: Create a webpage from a provided design comp
