@@ -1,6 +1,6 @@
 # Contributors:
-Seid Mohamed 
-James Gerstenberger
+* Seid Mohamed 
+* James Gerstenberger
 
 
 # Assignment Overview: Lab 10
